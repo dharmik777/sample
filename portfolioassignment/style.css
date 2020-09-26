@@ -1,0 +1,48 @@
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .jumbotron {
+      height: 75%;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+
+
+  .background {
+    height: 75%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgrey;
+  }
+
+  .instagram {
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text !important;
+      background-clip: text;
+      background: #833ab4;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-position: center center;
+  }
+
+
+  @media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+  
+  
+  
